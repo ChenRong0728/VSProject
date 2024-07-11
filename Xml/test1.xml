@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<excel version="1.0" author="cr">
+    <table id="1">
+        <colum id="1.1" name="algorithm" value="NSGAII"  />
+        <colum id="1.2" name="problem" value="WFG"  />
+    </table>
+    <table id="2">
+        <colum id="2.1" name="N" value="50" />
+        <colum id="2.2" name="M" value="5" />
+        <colum id="2.3" name="D" value="5" />
+        <colum id="2.4" name="maxFE" value="20000" />
+        <colum id="2.5" name="maxRuntime" value="3" />
+        <colum id="2.6" name="save" value="5" />
+        <colum id="2.7" name="run" value="1" />
+    </table>
+</excel>

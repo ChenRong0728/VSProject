@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OptimizationObj>
+    <Algorithm tpye="NSGAII">//type表示算法类型（NSGA-II或MOPSO）
+	<RunNumber value="1" />//当前运行编号
+	//NumberOfSavePopulation value="5"   //每次运行中保存的种群数
+    </Algorithm>
+    <Problem type="WFG1">//解决问题类型
+	<PopulationSize value="100" />//求解该问题的算法的种群大小
+	<NumberOfObjectives value="5" />//问题的目标数
+	<NumberOfVariables value="5" />      //问题的变量数
+	<MaxNumberOfEvaluations value="20000" />//最大评价次数
+	<MaxRuntime value="5" />//最大运行时间
+    </Problem>
+</OptimizationObj>
